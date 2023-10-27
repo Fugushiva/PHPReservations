@@ -9,6 +9,7 @@ You should use the file reservations.sql inside data and upload in your own loca
 ## XML
 There is the files on the project already, you can just use the function
 
-```simplexml_load_file
+```php
+simplexml_load_file("path_to_xml")
 
 
