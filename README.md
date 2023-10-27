@@ -7,7 +7,7 @@ But if you wanna train yourself with PHP database or SQL there is a list of exer
 You should use the file reservations.sql inside data and upload in your own localhost / server and begin the exercices
 
 ## XML
-There is the files on the project already, you can just use the function
+There is the file on the project already, you can just use the function
 
 ```php
 simplexml_load_file("path_to_xml")
