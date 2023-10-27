@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<reservations>
+	<personne id="1">
+		<nom>Durand</nom>
+		<prenom>Bob</prenom>
+		<dateNaiss>1978/12/05</dateNaiss>
+		<sexe>h</sexe>
+		<abonne>1</abonne>
+	</personne>
+	<personne id="2">
+		<nom>Hirogawa</nom>
+		<prenom>Kenji</prenom>
+		<dateNaiss>1982/09/16</dateNaiss>
+		<sexe>h</sexe>
+		<abonne>0</abonne>
+	</personne>
+	<personne id="3">
+		<nom>Sylvestre</nom>
+		<prenom>Juliette</prenom>
+		<dateNaiss>1980/05/01</dateNaiss>
+		<sexe>f</sexe>
+		<abonne>1</abonne>
+	</personne>
+
+	<lieu id="delvaux">
+		<designation>Espace Delvaux / La Vénerie</designation>
+		<adresse>
+			<rue>3 rue Gratès</rue>
+			<localite>1170 Watermael-Boitsfort</localite>
+		</adresse>
+		<website></website>
+		<tel></tel>
+	</lieu>
+	<lieu id="dexia">
+		<designation>Dexia Art Center</designation>
+		<adresse>
+			<rue>50 rue de l'Ecuyer</rue>
+			<localite>1000 Bruxelles</localite>
+		</adresse>
+		<website></website>
+		<tel>000</tel>
+	</lieu>
+	<lieu id="samaritaine">
+		<designation>La Samaritaine</designation>
+		<adresse>
+			<rue>16 rue de la samaritaine</rue>
+			<localite>1000 Bruxelles</localite>
+		</adresse>
+		<website></website>
+		<tel></tel>
+	</lieu>
+	<lieu id="espacemagh">
+		<designation>Espace Magh</designation>
+		<adresse>
+			<rue>17 rue du Poinçon</rue>
+			<localite>1000 Bruxelles</localite>
+		</adresse>
+		<website>http://www.espacemagh.be</website>
+		<tel>+32 (0)2 274 05 10</tel>
+	</lieu>
+
+	<spectacle id="ayiti" reservable="1">
+		<title>Ayiti</title>
+		<img src="/assets/images/ayiti.jpg" />
+		<auteur>Daniel Marcelin et Philippe Laurent</auteur>
+		<scenographie>Daniel Marcelin et Philippe Laurent</scenographie>
+		<distribution>Daniel Marcelin</distribution>
+		<lieu ref="delvaux" />
+		<tarifs>
+			<normal>30</normal>
+			<senior>25</senior>
+			<promo>20</promo>
+		</tarifs>
+		<representations>
+			<representation complet="1">
+				<date>12/10/2012</date>
+				<heure>13:30</heure>
+				<lieu ref="delvaux" />
+				<res>
+					<personne ref="2" />
+					<personne ref="1" />
+				</res>
+			</representation>
+			<representation>
+				<date>12/10/2012</date>
+				<heure>20:30</heure>
+				<lieu ref="dexia" />
+				<res>
+					<personne ref="3" />
+				</res>
+			</representation>
+		</representations>
+	</spectacle>
+	<spectacle id="cible" reservable="1">
+		<title>Cible mouvante</title>
+		<img src="/assets/images/cible.jpg" />
+		<auteur>Marius Von Mayenburg</auteur>
+		<scenographie>Olivier Boudon</scenographie>
+		<distribution>Anne Marie Loop, Pietro Varasso, Laurent Caron, Élena Perez et Guillaume Alexandre</distribution>
+		<lieu ref="dexia" />
+		<tarifs>
+			<normal>30</normal>
+			<senior>25</senior>
+			<promo>22</promo>
+		</tarifs>
+		<representations>
+			<representation>
+				<date>2/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>3/10/2012</date>
+				<heure>20:30</heure>
+				<res>
+					<personne ref="1" />
+				</res>
+			</representation>
+			<representation>
+				<date>4/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>5/10/2012</date>
+				<heure>20:30</heure>
+				<res>
+					<personne ref="3" />
+					<personne ref="1" />
+				</res>
+			</representation>
+			<representation>
+				<date>6/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>9/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>10/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>11/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>12/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>13/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+		</representations>
+	</spectacle>
+	<spectacle id="chanteurbelge" reservable="1">
+		<title>Ceci n'est pas un chanteur belge</title>
+		<img src="/assets/images/chanteurbelge.jpg" />
+		<auteur>Claude Semal</auteur>
+		<scenographie>Laurence Warin</scenographie>
+		<distribution>Claude Semal</distribution>
+		<lieu ref="delvaux" />
+		<tarifs>
+			<normal>35</normal>
+			<senior>30</senior>
+			<promo>25</promo>
+		</tarifs>
+		<representations>
+			<representation>
+				<date>16/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>18/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>19/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>20/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>23/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>25/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>26/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>27/10/2012</date>
+				<heure>20:30</heure>
+			</representation>
+		</representations>
+	</spectacle>
+	<spectacle id="parvis" reservable="1">
+		<title>Les pavés du Parvis</title>
+		<img src="/assets/images/parvis.jpg" />
+		<auteur>Pierre Wayburn et Gwendoline Gauthier</auteur>
+		<scenographie>Philippe Laurent</scenographie>
+		<distribution>Pierre Wayburn et Gwendoline Gauthier</distribution>
+		<lieu ref="samaritaine" />
+		<tarifs>
+			<normal>30</normal>
+			<senior>25</senior>
+			<promo>20</promo>
+		</tarifs>
+		<representations>
+			<representation>
+				<date>29/01/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>30/01/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>31/01/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>01/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>02/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>03/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>04/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>05/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>06/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>07/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>08/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>09/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>10/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>11/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>12/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>13/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>14/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>15/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>16/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+		</representations>
+	</spectacle>
+	<spectacle id="emigres" reservable="0">
+		<title>Émigrés</title>
+		<img src="/assets/images/emigres.jpg" />
+		<auteur>Slawomir Mrozek</auteur>
+		<scenographie>Najib Ghallale</scenographie>
+		<distribution>Rachid Benbouchta et Mohamed Ouachen</distribution>
+		<lieu ref="espacemagh" />
+		<tarifs>
+			<normal>25</normal>
+			<senior>20</senior>
+			<promo>15</promo>
+		</tarifs>
+		<representations>
+			<representation>
+				<date>29/01/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>30/01/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>31/01/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>01/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>02/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>03/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>04/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>05/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>06/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>07/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>08/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>09/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>10/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>11/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>12/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>13/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>14/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>15/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+			<representation>
+				<date>16/02/2012</date>
+				<heure>20:30</heure>
+			</representation>
+		</representations>		
+	</spectacle>
+</reservations>

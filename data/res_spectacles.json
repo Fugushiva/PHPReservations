@@ -1,0 +1,423 @@
+{
+  "reservations": {
+    "personne": [
+        {
+          "id": 1,
+          "nom": "Durand",
+          "prenom": "Bob",
+          "dateNaiss": "1978/12/05",
+          "sexe": "h",
+          "abonne": 1
+        },
+        {
+          "id": 2,
+          "nom": "Hirogawa",
+          "prenom": "Kenji",
+          "dateNaiss": "1982/09/16",
+          "sexe": "h",
+          "abonne": 0
+        },
+        {
+          "id": 3,
+          "nom": "Sylvestre",
+          "prenom": "Juliette",
+          "dateNaiss": "1980/05/01",
+          "sexe": "f",
+          "abonne": 1
+        }
+      ],
+      "lieu": [
+        {
+          "id": "delvaux",
+          "designation": "Espace Delvaux / La Vénerie",
+          "adresse": {
+            "rue": "3 rue Gratès",
+            "localite": "1170 Watermael-Boitsfort"
+          },
+          "website": "",
+          "tel": ""
+        },
+        {
+          "id": "dexia",
+          "designation": "Dexia Art Center",
+          "adresse": {
+            "rue": "50 rue de l'Ecuyer",
+            "localite": "1000 Bruxelles"
+          },
+          "website": "",
+          "tel": ""
+        },
+        {
+          "id": "samaritaine",
+          "designation": "La Samaritaine",
+          "adresse": {
+            "rue": "16 rue de la samaritaine",
+            "localite": "1000 Bruxelles"
+          },
+          "website": "",
+          "tel": ""
+        },
+        {
+          "id": "espacemagh",
+          "designation": "Espace Magh",
+          "adresse": {
+            "rue": "17 rue du Poinçon",
+            "localite": "1000 Bruxelles"
+          },
+          "website": "http://www.espacemagh.be",
+          "tel": "+32 (0)2 274 05 10"
+        }
+      ]
+    },
+    "spectacle": [
+      {
+        "id": "ayiti",
+        "title": "Ayiti",
+        "reservable": true,
+        "img": "/assets/images/ayiti.jpg",
+        "auteur": "Daniel Marcelin et Philippe Laurent",
+        "scenographie": "Daniel Marcelin et Philippe Laurent",
+        "distribution": "Daniel Marcelin",
+        "lieu": "delvaux",
+        "tarifs": {
+          "normal": 30,
+          "senior": 25,
+          "promo": 20
+        },
+        "representations": {
+          "representation": [
+            {
+              "complet": true,
+              "date": "12/10/2012",
+              "heure": "13:30",
+              "lieu": "delvaux",
+              "res": {
+                "personne": [
+                  2,
+                  1
+                ]
+              }
+            },
+            {
+              "date": "12/10/2012",
+              "heure": "20:30",
+              "lieu": "dexia",
+              "res": {
+                "personne": 3
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "cible",
+        "title": "Cible mouvante",
+        "reservable": true,
+        "img": "/assets/images/cible.jpg",
+        "auteur": "Marius Von Mayenburg",
+        "scenographie": "Olivier Boudon",
+        "distribution": "Anne Marie Loop, Pietro Varasso, Laurent Caron, Élena Perez et Guillaume Alexandre",
+        "lieu": "dexia",
+        "tarifs": {
+          "normal": 30,
+          "senior": 25,
+          "promo": 22
+        },
+        "representations": {
+          "representation": [
+            {
+              "date": "2/10/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "3/10/2012",
+              "heure": "20:30",
+              "res": {
+                "personne": 1
+              }
+            },
+            {
+              "date": "4/10/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "5/10/2012",
+              "heure": "20:30",
+              "res": {
+                "personne": [
+                  3,
+                  1
+                ]
+              }
+            },
+            {
+              "date": "6/10/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "9/10/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "10/10/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "11/10/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "12/10/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "13/10/2012",
+              "heure": "20:30"
+            }
+          ]
+        }
+      },
+      {
+        "id": "chanteurbelge",
+        "title": "Ceci n'est pas un chanteur belge",
+        "reservable": true,
+        "img": "/assets/images/chanteurbelge.jpg",
+        "auteur": "Claude Semal",
+        "scenographie": "Laurence Warin",
+        "distribution": "Claude Semal",
+        "lieu": "delvaux",
+        "tarifs": {
+          "normal": 35,
+          "senior": 30,
+          "promo": 25
+        },
+        "representations": {
+          "representation": [
+            {
+              "date": "16/10/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "18/10/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "19/10/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "20/10/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "23/10/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "25/10/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "26/10/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "27/10/2012",
+              "heure": "20:30"
+            }
+          ]
+        }
+      },
+      {
+        "id": "parvis",
+        "title": "Les pavés du Parvis",
+        "reservable": true,
+        "img": "/assets/images/parvis.jpg",
+        "auteur": "Pierre Wayburn et Gwendoline Gauthier",
+        "scenographie": "Philippe Laurent",
+        "distribution": "Pierre Wayburn et Gwendoline Gauthier",
+        "lieu": "samaritaine",
+        "tarifs": {
+          "normal": 30,
+          "senior": 25,
+          "promo": 20
+        },
+        "representations": {
+          "representation": [
+            {
+              "date": "29/01/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "30/01/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "31/01/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "01/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "02/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "03/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "04/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "05/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "06/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "07/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "08/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "09/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "10/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "11/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "12/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "13/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "14/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "15/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "16/02/2012",
+              "heure": "20:30"
+            }
+          ]
+        }
+      },
+      {
+        "id": "emigres",
+        "title": "Émigrés",
+        "reservable": false,
+        "img": "/assets/images/emigres.jpg",
+        "auteur": "Slawomir Mrozek",
+        "scenographie": "Najib Ghallale",
+        "distribution": "Rachid Benbouchta et Mohamed Ouachen",
+        "lieu": "espacemagh",
+        "tarifs": {
+          "normal": 25,
+          "senior": 20,
+          "promo": 15
+        },
+        "representations": {
+          "representation": [
+            {
+              "date": "29/01/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "30/01/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "31/01/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "01/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "02/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "03/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "04/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "05/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "06/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "07/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "08/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "09/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "10/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "11/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "12/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "13/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "14/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "15/02/2012",
+              "heure": "20:30"
+            },
+            {
+              "date": "16/02/2012",
+              "heure": "20:30"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
